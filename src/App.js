@@ -6,7 +6,7 @@ import ShowContact from "./apps/contacts/ShowContact";
 
 const App = () => {
   return (
-    <BrowserRouter basename={process.env.PUBLIC_URL}>
+    <BrowserRouter>
       <Routes>
         <Route path="/" element={<ContactsList />} />
         <Route path="/:id" element={<ShowContact />} />
