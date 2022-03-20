@@ -6,7 +6,7 @@ import ShowContact from "./apps/contacts/ShowContact";
 
 const App = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/address-book">
       <Routes>
         <Route path="/" element={<ContactsList />} />
         <Route path="/:id" element={<ShowContact />} />
