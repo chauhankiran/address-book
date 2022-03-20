@@ -34,7 +34,6 @@ $ npm i
 $ npm start
 ```
 
-The application will be up & running at [http:localhost:3000/address-book](http:localhost:3000/address-book). The `/address-book` is due to gh-pages deployment. If you want to run the application at `/`. Follow these steps.
+## License
 
-- Remove the `homepage` entry from `package.json`.
-- Remove the `basename` attribtue from `<BrowserRouter>` in `App.js`.
+[MIT License](/LICENSE). Enjoy!
